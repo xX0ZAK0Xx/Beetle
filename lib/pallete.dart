@@ -10,4 +10,7 @@ class Pallete {
   static const Color borderColor = Color.fromRGBO(200, 200, 200, 1);
   static const Color blackColor = Colors.black;
   static const Color whiteColor = Colors.white;
+
+  static const TextStyle titleStyle = TextStyle(color: mainFontColor, fontFamily: 'Cera Pro', fontSize: 25, fontWeight: FontWeight.bold);
+  static const TextStyle textStyle1 = TextStyle(color: mainFontColor, fontFamily: 'Cera Pro', fontSize: 20);
 }
